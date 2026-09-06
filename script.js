@@ -8,9 +8,9 @@ const TEAM_CONFIG = [
   // PHOENIX ESPORT: để trống image để bạn thay bằng URL ảnh custom của bạn.
   { name: "PHOENIX ESPORT", image: "https://cdn.phototourl.com/free/2026-09-06-79536f58-9948-4efc-8efe-229e5fecacaf.png" },
 
-  { name: "TEAM FLASH", image: "https://upload.wikimedia.org/wikipedia/vi/3/3b/Team_Flash_logo.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original" },
-  { name: "HEAVY", image: "https://liquipedia.net/commons/images/0/0d/Heavy_Esports_logo.png" },
-  { name: "WAG", image: "https://liquipedia.net/commons/images/8/84/WAG_Logo.png" },
+  { name: "TEAM FLASH", image: "https://cdn.phototourl.com/free/2026-09-06-ca9ebffc-fef5-4128-ac32-ff284688a9d6.png" },
+  { name: "HEAVY", image: "https://cdn.phototourl.com/free/2026-09-06-a703f445-a239-48e6-8acf-70f413cf1b92.png" },
+  { name: "WAG", image: "https://cdn.phototourl.com/free/2026-09-06-827f7469-32a5-49cf-91d8-e39e8672ca11.png" },
   { name: "NOVA", image: "https://liquipedia.net/commons/images/5/5c/Nova_Esports_logo.png" },
   { name: "FLUXO", image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/FluxoGG.png" },
   { name: "BURIRAM UNITED ESPORT", image: "https://liquipedia.net/commons/images/1/1f/Buriram_United_Esports_logo.png" },
