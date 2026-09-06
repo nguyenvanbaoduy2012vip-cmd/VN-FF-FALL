@@ -8,7 +8,7 @@ const TEAM_CONFIG = [
   // PHOENIX ESPORT: để trống image để bạn thay bằng URL ảnh custom của bạn.
   { name: "PHOENIX ESPORT", image: "https://cdn.phototourl.com/free/2026-09-06-79536f58-9948-4efc-8efe-229e5fecacaf.png" },
 
-  { name: "TEAM FLASH", image: "https://liquipedia.net/commons/images/5/5e/Team_Flash_allmode.png" },
+  { name: "TEAM FLASH", image: "https://upload.wikimedia.org/wikipedia/vi/3/3b/Team_Flash_logo.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original" },
   { name: "HEAVY", image: "https://liquipedia.net/commons/images/0/0d/Heavy_Esports_logo.png" },
   { name: "WAG", image: "https://liquipedia.net/commons/images/8/84/WAG_Logo.png" },
   { name: "NOVA", image: "https://liquipedia.net/commons/images/5/5c/Nova_Esports_logo.png" },
