@@ -1,0 +1,64 @@
+*{box-sizing:border-box}
+:root{
+  --bg:#07090d;--panel:#10141b;--panel2:#151b24;--line:#27303c;
+  --text:#f5f7fa;--muted:#8d98a8;--accent:#ffb300;--accent2:#ff6a00;
+  --danger:#ef4444;--green:#38d39f;
+}
+body{margin:0;background:
+radial-gradient(circle at 80% -10%,rgba(255,145,0,.16),transparent 32%),
+linear-gradient(135deg,#07090d,#0b0f15 55%,#080a0e);
+color:var(--text);font-family:Orbitron,Arial,sans-serif;min-height:100vh}
+.topbar{min-height:92px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:18px 5vw;background:rgba(7,9,13,.92);position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)}
+.eyebrow,.label{font-size:10px;letter-spacing:3px;color:var(--accent);font-weight:800;margin:0 0 7px}
+h1{font-size:24px;margin:0;font-weight:900;letter-spacing:1px}
+h1 span{color:#8994a4;font-weight:600}
+.top-actions{display:flex;gap:8px}
+button{font-family:inherit;cursor:pointer;border:0}
+.tab{padding:11px 16px;background:#151a22;color:#8994a4;border:1px solid var(--line);font-size:10px;font-weight:800;letter-spacing:1px}
+.tab.active{background:var(--accent);color:#111;border-color:var(--accent)}
+main{width:min(1200px,92%);margin:35px auto 70px}
+.view{display:none}.active-view{display:block}
+.hero,.admin-title{display:flex;justify-content:space-between;align-items:end;margin-bottom:20px}
+h2{font-size:36px;margin:0;font-weight:900}
+.legend{display:flex;gap:18px;color:#7f8a99;font-size:10px;font-weight:800}
+.table-wrap{border:1px solid var(--line);background:rgba(12,16,22,.92);box-shadow:0 18px 60px rgba(0,0,0,.25)}
+.ranking-head,.rank-row{display:grid;grid-template-columns:70px minmax(220px,1fr) 150px 150px 170px;align-items:center}
+.ranking-head{min-height:48px;background:#151a22;color:#7f8a99;font-size:10px;font-weight:800;letter-spacing:1.5px;border-bottom:1px solid var(--line)}
+.ranking-head div,.rank-row>div{padding:0 18px}
+.rank-row{min-height:76px;border-bottom:1px solid #1d2530;transition:.18s}
+.rank-row:last-child{border-bottom:0}
+.rank-row:hover{background:#121821}
+.rank-num{font-size:18px;color:#657080;font-weight:900}
+.rank-row:nth-child(1) .rank-num{color:var(--accent)}
+.team{display:flex;align-items:center;gap:14px;min-width:0}
+.team-logo,.admin-logo{width:48px;height:48px;border-radius:9px;object-fit:cover;background:#202631;border:1px solid #303948;flex:none}
+.team-name{font-size:14px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat{font-size:18px;font-weight:800}
+.points{font-size:22px;font-weight:900;color:var(--accent)}
+.admin-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.admin-card{background:var(--panel);border:1px solid var(--line);padding:18px}
+.admin-team{display:flex;align-items:center;gap:13px;margin-bottom:18px}
+.admin-logo{width:55px;height:55px}
+.admin-name{font-size:15px;font-weight:900}
+.admin-controls{display:grid;gap:10px}
+.control{display:grid;grid-template-columns:85px 1fr 42px 42px;align-items:center;gap:7px}
+.control span{font-size:10px;color:#8b96a6;font-weight:800}
+.value{background:#0a0d12;border:1px solid #29323e;text-align:center;padding:10px;font-size:15px;font-weight:900}
+.small-btn{height:40px;background:#1c232d;color:white;border:1px solid #323d4b;font-size:17px;font-weight:900}
+.small-btn:hover{background:#27313d}
+.danger{padding:12px 17px;background:#3a1518;color:#ff7d83;border:1px solid #713137;font-size:10px;font-weight:900;letter-spacing:1px}
+.hint{color:#758091;font:11px Arial,sans-serif;margin:-8px 0 20px}
+.toast{position:fixed;right:22px;bottom:22px;background:#e9edf2;color:#0a0d12;padding:11px 15px;border-radius:5px;font:bold 12px Arial,sans-serif;opacity:0;transform:translateY(10px);transition:.2s;pointer-events:none}
+.toast.show{opacity:1;transform:translateY(0)}
+@media(max-width:800px){
+ .topbar{align-items:flex-start;gap:14px;flex-direction:column}
+ h1{font-size:18px}.top-actions{width:100%}.tab{flex:1}
+ .hero,.admin-title{align-items:flex-start;gap:15px;flex-direction:column}
+ h2{font-size:28px}.legend{display:none}
+ .ranking-head,.rank-row{grid-template-columns:42px minmax(150px,1fr) 70px 65px 75px}
+ .ranking-head{font-size:8px}.ranking-head div,.rank-row>div{padding:0 8px}
+ .team-logo{width:37px;height:37px}.team{gap:8px}.team-name{font-size:10px}
+ .stat{font-size:13px}.points{font-size:16px}.rank-row{min-height:62px}
+ .admin-grid{grid-template-columns:1fr}
+ .control{grid-template-columns:70px 1fr 38px 38px}
+}

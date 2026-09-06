@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QN FF FALL 2026 | Day 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">FREE FIRE TOURNAMENT</div>
+      <h1>QN FF FALL 2026 <span>| Day 1</span></h1>
+    </div>
+    <div class="top-actions">
+      <button class="tab active" data-view="ranking">VIEW RANKING</button>
+      <button class="tab" data-view="admin">ADMIN</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="rankingView" class="view active-view">
+      <div class="hero">
+        <div>
+          <p class="label">LIVE STANDINGS</p>
+          <h2>RANKING</h2>
+        </div>
+        <div class="legend">
+          <span>BOOYAH</span><span>KILL</span><span>POINT</span>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <div class="ranking-head">
+          <div>#</div><div>TEAM</div><div>BOOYAH</div><div>KILL</div><div>POINT</div>
+        </div>
+        <div id="rankingBody"></div>
+      </div>
+    </section>
+
+    <section id="adminView" class="view">
+      <div class="admin-title">
+        <div>
+          <p class="label">CONTROL PANEL</p>
+          <h2>ADMIN</h2>
+        </div>
+        <button id="resetAll" class="danger">RESET ALL</button>
+      </div>
+      <p class="hint">Dùng +1 / -1 để chỉnh trực tiếp BOOYAH, KILL hoặc POINT. Dữ liệu được lưu trên trình duyệt.</p>
+      <div id="adminBody" class="admin-grid"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast">Đã cập nhật</div>
+  <script src="script.js"></script>
+</body>
+</html>
