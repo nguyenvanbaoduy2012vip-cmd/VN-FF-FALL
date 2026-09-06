@@ -15,10 +15,10 @@ const TEAM_CONFIG = [
   { name: "FLUXO", image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/FluxoGG.png" },
   { name: "BURIRAM UNITED ESPORT", image: "https://cdn.phototourl.com/member/2026-09-06-3e45c1a4-5ea8-4df2-8aa3-684ed71bc8f0.png" },
   { name: "AG GLOBAL", image: "https://cdn.phototourl.com/free/2026-09-06-b5b8264e-5efe-4dd4-aec6-cfe83f6f55f4.jpg" },
-  { name: "ONIC OLYMPUS", image: "https://onic.gg/wp-content/uploads/2024/04/ONIC-Logo.png" },
-  { name: "LION GROUP", image: "https://liquipedia.net/commons/images/7/7c/Lion_Esports_logo.png" },
-  { name: "COPPER X", image: "https://liquipedia.net/commons/images/3/3c/Copper_X_logo.png" },
-  { name: "ESVOS DEVIND", image: "https://liquipedia.net/freefire/File:EVOS_Esports_allmode.png" }
+  { name: "ONIC OLYMPUS", image: "https://cdn.phototourl.com/member/2026-09-06-bf1319e6-8948-4129-951c-78d3de4c2c50.jpg" },
+  { name: "LION GROUP", image: "https://cdn.phototourl.com/member/2026-09-06-22726b91-a78a-433e-876b-60848345cdf9.jpg" },
+  { name: "COPPER X", image: "https://cdn.phototourl.com/member/2026-09-06-64e265fc-7d22-47bf-96cf-4fe4d7f8817a.jpg" },
+  { name: "ESVOS DEVIND", image: "https://cdn.phototourl.com/member/2026-09-06-df5aa2fd-5709-4b96-afcb-0f1b9630d59a.png" }
 ];
 
 const STORAGE_KEY = "qn_ff_fall_2026_day1";
