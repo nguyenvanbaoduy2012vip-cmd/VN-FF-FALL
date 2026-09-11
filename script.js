@@ -6,7 +6,7 @@
 
 const TEAM_CONFIG = [
   // PHOENIX ESPORT: để trống image để bạn thay bằng URL ảnh custom của bạn.
-  { name: "PHOENIX ESPORT", image: "https://cdn.phototourl.com/free/2026-09-06-79536f58-9948-4efc-8efe-229e5fecacaf.png" },
+  { name: "PHOENIX ESPORT", image: "https://cdn.phototourl.com/member/2026-09-11-5796f20c-ba37-492d-bd5e-0471d41d278b.png" },
 
   { name: "TEAM FLASH", image: "https://cdn.phototourl.com/free/2026-09-06-ca9ebffc-fef5-4128-ac32-ff284688a9d6.png" },
   { name: "HEAVY", image: "https://cdn.phototourl.com/free/2026-09-06-a703f445-a239-48e6-8acf-70f413cf1b92.png" },
